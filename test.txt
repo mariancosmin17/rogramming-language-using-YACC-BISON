@@ -1,0 +1,101 @@
+begin_classes
+    class MyClass {
+        int x=10;
+        int a;
+        int b;
+        float y;
+
+        void setX(int newX) {
+            x = newX;
+            Print(x);
+        }
+        int getX(int c) {
+            Print(3);
+            if(a+b>c){
+            Print(3);
+            }
+            return x;
+        }
+    }
+end_classes
+
+begin_globals
+    int globalVar = 10;
+    float pi = 3.14;
+    int gx=3.5;
+    bool gf;
+    string gs="gs";
+    char ax='a';
+end_globals
+
+begin_functions
+    void printGlobalVar() {
+        Print(globalVar);
+    }
+
+    int add(int a, int b) {
+    int j;
+        for(int i=0; i<10; i=i+2.3){
+          if(j>i){
+               Print(i*10);
+               bool c = true;
+               while( c || gf){
+                    int i;
+       i = 33;
+      Print(i*3);
+      c = false;
+      Print(c);
+      Print(gs);               
+
+               }
+          }
+}
+float var;
+        return a + var;
+    }
+    
+end_functions
+
+begin_main
+    int obj;
+    MyClass Vlad;
+    x=Vlad.setX();
+    obj=Vlad.a;
+    int g=new int(3);
+    int go=Vlad.getX(10);
+    int z=2;
+    TypeOf(1000 > gx && gf == false || add(5,10) > 300);
+    Print(true&&true||false);
+    TypeOf(gs);
+    int u=3.5;
+    
+    
+    int h;
+    float j=pi;
+    h=k[1]+1+17-23*c;
+    string s;
+    s="Hello";
+    char c;
+    c='a';
+    add(a,c);
+    TypeOf(c);
+    TypeOf(true || false && true);
+    bool b=true;
+    if (result > 25) {
+    }
+    int i = 0;
+    while (i < 3) {
+        Print(i);
+        i = i + 1;
+    }
+
+    Print(2.3+6+15);
+    Print(2 && true);
+    int k=5+45;
+    Print(k);
+
+    int x;
+    x=add(2,3)+5;
+    
+
+end_main

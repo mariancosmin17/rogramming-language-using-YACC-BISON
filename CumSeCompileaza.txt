@@ -1,0 +1,7 @@
+bison -d -t limbaj.y
+flex -o limbaj.lex.c limbaj.l
+g++ -c symtable.cpp -o symtable.o
+g++ -c ast.cpp -o ast.o
+g++ -o parser limbaj.tab.c limbaj.lex.c symtable.o ast.o
+
+

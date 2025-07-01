@@ -1,0 +1,30 @@
+begin_classes
+class Student
+{
+  int age;
+}
+end_classes
+
+begin_globals
+int myArray[5];
+int test = 3;
+end_globals
+
+begin_functions
+int something()
+{
+  int local = 10;
+  local = local + 1;
+}
+end_functions
+
+begin_main
+ 
+  myArray[0] = 10;
+  myArray[1] = 20;
+
+  myArray[test] = 99;
+  int x = myArray[1];
+
+  x = myArray[0];
+end_main

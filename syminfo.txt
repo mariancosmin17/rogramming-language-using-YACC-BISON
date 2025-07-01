@@ -1,0 +1,84 @@
+=== Symbol Table for scope: global ===
+Nume           Tip            Categorie      Valoare/Extra       
+----------------------------------------------------------------------
+main           int            function       params=0            
+add            int            function       params=0            
+printGlobalVar void           function       params=0            
+ax             char           variable       init_value          
+gs             string         variable       init_value          
+gf             bool           variable                           
+gx             int            variable                           
+pi             float          variable       init_value          
+globalVar      int            variable       init_value          
+MyClass        NULL           class          -                   
+=== Symbol Table for scope: MyClass ===
+Nume           Tip            Categorie      Valoare/Extra       
+----------------------------------------------------------------------
+getX           int            function       params=0            
+y              float          variable                           
+setX           void           function       params=0            
+b              int            variable                           
+a              int            variable                           
+x              int            variable       new_value           
+=== Symbol Table for scope: setX ===
+Nume           Tip            Categorie      Valoare/Extra       
+----------------------------------------------------------------------
+newX           int            variable                           
+=== Symbol Table for scope: getX ===
+Nume           Tip            Categorie      Valoare/Extra       
+----------------------------------------------------------------------
+if             NULL           instruction    -                   
+c              int            variable                           
+=== Symbol Table for scope: if-scope ===
+Nume           Tip            Categorie      Valoare/Extra       
+----------------------------------------------------------------------
+=== Symbol Table for scope: printGlobalVar ===
+Nume           Tip            Categorie      Valoare/Extra       
+----------------------------------------------------------------------
+=== Symbol Table for scope: add ===
+Nume           Tip            Categorie      Valoare/Extra       
+----------------------------------------------------------------------
+var            float          variable                           
+for            NULL           instruction    -                   
+j              int            variable                           
+b              int            variable                           
+a              int            variable                           
+=== Symbol Table for scope: for-scope ===
+Nume           Tip            Categorie      Valoare/Extra       
+----------------------------------------------------------------------
+if             NULL           instruction    -                   
+i              int            variable       some_value          
+=== Symbol Table for scope: if-scope ===
+Nume           Tip            Categorie      Valoare/Extra       
+----------------------------------------------------------------------
+while          NULL           instruction    -                   
+c              bool           variable       new_value           
+=== Symbol Table for scope: while-scope ===
+Nume           Tip            Categorie      Valoare/Extra       
+----------------------------------------------------------------------
+i              int            variable       new_value           
+=== Symbol Table for scope: main ===
+Nume           Tip            Categorie      Valoare/Extra       
+----------------------------------------------------------------------
+k              int            variable       some_value          
+while          NULL           instruction    -                   
+g              int            variable                           
+j              float          variable       some_value          
+s              string         variable       new_value           
+Vlad           MyClass        variable                           
+b              bool           variable       some_value          
+x              int            variable       new_value           
+if             NULL           instruction    -                   
+z              int            variable       some_value          
+go             int            variable                           
+h              int            variable                           
+u              int            variable                           
+obj            int            variable                           
+c              char           variable       new_value           
+i              int            variable       new_value           
+=== Symbol Table for scope: if-scope ===
+Nume           Tip            Categorie      Valoare/Extra       
+----------------------------------------------------------------------
+=== Symbol Table for scope: while-scope ===
+Nume           Tip            Categorie      Valoare/Extra       
+----------------------------------------------------------------------
